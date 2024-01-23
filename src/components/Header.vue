@@ -13,7 +13,7 @@ const handleSubmit = ()=>{
     if (Object.values(store.busqueda).includes('')) {
         notificaciones.$patch({
             texto:'Todos los campos son obligatorios',
-            moestrar:true,
+            mostrar:true,
             error:true,
         })
         return
